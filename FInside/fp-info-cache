@@ -1,4 +1,4 @@
-15723283660865249
+15731068852849249
 6N137
 DIP762W50P254L977H451Q8
 
@@ -70840,6 +70840,20 @@ Maple Mini
 40
 40
 YonaFootprints
+SideLedCircularTestEnd
+
+
+0
+3
+3
+YonaFootprints
+SideLedTestEnd
+
+
+0
+3
+3
+YonaFootprints
 SIP-RFM-4
 
 
@@ -70854,12 +70868,33 @@ SK6812SIDE
 4
 4
 YonaFootprints
+SK6812SIDE-HandSoldering
+
+
+0
+8
+4
+YonaFootprints
 TEDxOrbStrutScrewHole
 
 
 0
 1
 1
+YonaFootprints
+TEDX_DAT_BRIDGE
+
+
+0
+3
+2
+YonaFootprints
+TEDX_DAT_BRIDGE_TALL
+
+
+0
+3
+2
 YonaFootprints
 TEDX_IN2
 
