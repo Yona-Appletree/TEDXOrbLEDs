@@ -1,0 +1,3107 @@
+(kicad_pcb 
+  (version 20171130) 
+  (host pcbnew "(5.1.0-0)") 
+  (general 
+    (thickness 1.6) 
+    (drawings 19) 
+    (tracks 0) 
+    (zones 0) 
+    (modules 0) 
+    (nets 1)) 
+  (page A3) 
+  (layers 
+    (0 F.Cu signal) 
+    (31 B.Cu signal) 
+    (32 B.Adhes user) 
+    (33 F.Adhes user) 
+    (34 B.Paste user) 
+    (35 F.Paste user) 
+    (36 B.SilkS user) 
+    (37 F.SilkS user) 
+    (38 B.Mask user) 
+    (39 F.Mask user) 
+    (40 Dwgs.User user) 
+    (41 Cmts.User user) 
+    (42 Eco1.User user) 
+    (43 Eco2.User user) 
+    (44 Edge.Cuts user) 
+    (45 Margin user) 
+    (46 B.CrtYd user) 
+    (47 F.CrtYd user) 
+    (48 B.Fab user) 
+    (49 F.Fab user)) 
+  (setup 
+    (last_trace_width 0.3) 
+    (trace_clearance 0.25) 
+    (zone_clearance 0.508) 
+    (zone_45_only no) 
+    (trace_min 0.2) 
+    (via_size 1) 
+    (via_drill 0.6) 
+    (via_min_size 0.4) 
+    (via_min_drill 0.3) 
+    (uvia_size 0.3) 
+    (uvia_drill 0.1) 
+    (uvias_allowed no) 
+    (uvia_min_size 0.2) 
+    (uvia_min_drill 0.1) 
+    (edge_width 0.15) 
+    (segment_width 0.2) 
+    (pcb_text_width 0.3) 
+    (pcb_text_size 1.5 1.5) 
+    (mod_edge_width 0.15) 
+    (mod_text_size 1 1) 
+    (mod_text_width 0.15) 
+    (pad_size 1.524 1.524) 
+    (pad_drill 0.762) 
+    (pad_to_mask_clearance 0.2) 
+    (aux_axis_origin 0 0) 
+    (grid_origin 69.605 148.237) 
+    (visible_elements FFFFFF7F) 
+    (pcbplotparams 
+      (layerselection 0x010fc_ffffffff) 
+      (usegerberextensions false) 
+      (usegerberattributes false) 
+      (usegerberadvancedattributes false) 
+      (creategerberjobfile false) 
+      (excludeedgelayer true) 
+      (linewidth 0.050000) 
+      (plotframeref false) 
+      (viasonmask false) 
+      (mode 1) 
+      (useauxorigin false) 
+      (hpglpennumber 1) 
+      (hpglpenspeed 20) 
+      (hpglpendiameter 15.000000) 
+      (psnegative false) 
+      (psa4output false) 
+      (plotreference true) 
+      (plotvalue true) 
+      (plotinvisibletext false) 
+      (padsonsilk false) 
+      (subtractmaskfromsilk false) 
+      (outputformat 1) 
+      (mirror false) 
+      (drillshape 0) 
+      (scaleselection 1) 
+      (outputdirectory "./gerber"))) 
+  (net 0 "") 
+  (net_class Default "This is the default net class." 
+    (clearance 0.25) 
+    (trace_width 0.3) 
+    (via_dia 1) 
+    (via_drill 0.6) 
+    (uvia_dia 0.3) 
+    (uvia_drill 0.1)) 
+  (gr_line 
+    (start 263.605 108.237) 
+    (end 302.605 74.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 255.605 89.237) 
+    (end 244.605 99.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 216.605 145.237) 
+    (end 176.605 125.237) 
+    (layer Edge.Cuts) 
+    (width 0.15) 
+    (tstamp 5CD10653)) 
+  (gr_line 
+    (start 259.605 115.237) 
+    (end 216.605 145.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 173.605 122.237) 
+    (end 96.605 74.237) 
+    (layer Edge.Cuts) 
+    (width 0.15) 
+    (tstamp 5CD10652)) 
+  (gr_line 
+    (start 229.605 38.237) 
+    (end 287.605 71.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 202.605 62.237) 
+    (end 229.605 38.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 140.605 62.237) 
+    (end 202.605 62.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 191.605 38.237) 
+    (end 140.605 62.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 153.605 22.237) 
+    (end 191.605 38.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 96.605 74.237) 
+    (end 153.605 22.237) 
+    (layer Edge.Cuts) 
+    (width 0.15)) 
+  (gr_line 
+    (start 268.624164 85.081947) 
+    (end 302.605 74.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.860851 86.602155) 
+    (end 255.605 89.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (module holes 
+    (layer F.Cu) 
+    (at 268.402707 85.415048) 
+    (tedit 1) 
+    (tstamp 1) 
+    (attr virtual) 
+    (pad h0 np_thru_hole circle 
+      (at 0 0) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h1 np_thru_hole circle 
+      (at -1.389458 0.443444) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h2 np_thru_hole circle 
+      (at -2.778916 0.886888) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h3 np_thru_hole circle 
+      (at -4.168374 1.330332) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask))) 
+  (gr_line 
+    (start 271.482138 84.169827) 
+    (end 271.597113 84.679964) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.597113 84.679964) 
+    (end 271.621751 85.202318) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.621751 85.202318) 
+    (end 271.555309 85.721015) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.555309 85.721015) 
+    (end 271.399805 86.220294) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.399805 86.220294) 
+    (end 271.159965 86.684985) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.159965 86.684985) 
+    (end 270.843076 87.100969) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 270.843076 87.100969) 
+    (end 270.458766 87.455605) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 270.458766 87.455605) 
+    (end 270.018713 87.738119) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 270.018713 87.738119) 
+    (end 269.536284 87.939921) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.772971 89.460129) 
+    (end 264.262834 89.575104) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.262834 89.575104) 
+    (end 263.74048 89.599742) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.74048 89.599742) 
+    (end 263.221783 89.5333) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.221783 89.5333) 
+    (end 262.722504 89.377796) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 262.722504 89.377796) 
+    (end 262.257813 89.137956) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 262.257813 89.137956) 
+    (end 261.841829 88.821067) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.841829 88.821067) 
+    (end 261.487193 88.436757) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.487193 88.436757) 
+    (end 261.204679 87.996704) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.204679 87.996704) 
+    (end 261.002877 87.514275) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 269.536284 87.939921) 
+    (end 264.772971 89.460129) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.482138 84.169827) 
+    (end 261.002877 87.514275) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text All 
+    (at 266.972206 88.128429) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 274.340112 83.257707) 
+    (end 274.518337 83.959985) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 274.518337 83.959985) 
+    (end 274.610599 84.678629) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 274.610599 84.678629) 
+    (end 274.615566 85.403155) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 274.615566 85.403155) 
+    (end 274.533165 86.122996) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 274.533165 86.122996) 
+    (end 274.364597 86.827657) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 274.364597 86.827657) 
+    (end 274.11232 87.506862) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 274.11232 87.506862) 
+    (end 273.780014 88.150706) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 273.780014 88.150706) 
+    (end 273.372524 88.7498) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 273.372524 88.7498) 
+    (end 272.895793 89.295409) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 272.895793 89.295409) 
+    (end 272.356771 89.779576) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 272.356771 89.779576) 
+    (end 271.763319 90.195241) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.763319 90.195241) 
+    (end 271.124092 90.536343) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.124092 90.536343) 
+    (end 270.448404 90.797895) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 265.685091 92.318103) 
+    (end 264.982813 92.496328) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.982813 92.496328) 
+    (end 264.264169 92.58859) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.264169 92.58859) 
+    (end 263.539643 92.593557) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.539643 92.593557) 
+    (end 262.819802 92.511156) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 262.819802 92.511156) 
+    (end 262.115141 92.342588) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 262.115141 92.342588) 
+    (end 261.435936 92.090311) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.435936 92.090311) 
+    (end 260.792092 91.758005) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.792092 91.758005) 
+    (end 260.192998 91.350515) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.192998 91.350515) 
+    (end 259.647389 90.873784) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 259.647389 90.873784) 
+    (end 259.163222 90.334762) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 259.163222 90.334762) 
+    (end 258.747557 89.74131) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.747557 89.74131) 
+    (end 258.406455 89.102083) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.406455 89.102083) 
+    (end 258.144903 88.426395) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 270.448404 90.797895) 
+    (end 265.685091 92.318103) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 274.340112 83.257707) 
+    (end 258.144903 88.426395) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text MLCC 
+    (at 267.884326 90.986403) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 267.483154 80.238878) 
+    (end 287.605 71.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (module holes 
+    (layer F.Cu) 
+    (at 263.101908 81.925032) 
+    (tedit 1) 
+    (tstamp 1) 
+    (attr virtual) 
+    (pad h0 np_thru_hole circle 
+      (at 0 0) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h1 np_thru_hole circle 
+      (at 1.331375 -0.595615) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h2 np_thru_hole circle 
+      (at 2.66275 -1.19123) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h3 np_thru_hole circle 
+      (at 3.994125 -1.786845) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask))) 
+  (gr_line 
+    (start 260.180519 83.505847) 
+    (end 260.009389 83.011708) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.009389 83.011708) 
+    (end 259.926663 82.495359) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 259.926663 82.495359) 
+    (end 259.934856 81.972489) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 259.934856 81.972489) 
+    (end 260.03372 81.458986) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.03372 81.458986) 
+    (end 260.220251 80.970452) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.220251 80.970452) 
+    (end 260.488782 80.52173) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.488782 80.52173) 
+    (end 260.831152 80.126455) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.831152 80.126455) 
+    (end 261.23696 79.796637) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.23696 79.796637) 
+    (end 261.693875 79.542295) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.258056 77.500424) 
+    (end 266.752195 77.329294) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.752195 77.329294) 
+    (end 267.268544 77.246568) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.268544 77.246568) 
+    (end 267.791414 77.254761) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.791414 77.254761) 
+    (end 268.304917 77.353625) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.304917 77.353625) 
+    (end 268.793451 77.540156) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.793451 77.540156) 
+    (end 269.242173 77.808687) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 269.242173 77.808687) 
+    (end 269.637448 78.151057) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 269.637448 78.151057) 
+    (end 269.967266 78.556865) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 269.967266 78.556865) 
+    (end 270.221608 79.01378) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.693875 79.542295) 
+    (end 266.258056 77.500424) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.180519 83.505847) 
+    (end 270.221608 79.01378) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text All 
+    (at 264.220985 79.069051) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 257.442065 84.730945) 
+    (end 257.186647 84.052917) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.186647 84.052917) 
+    (end 257.014831 83.34904) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.014831 83.34904) 
+    (end 256.92911 82.629585) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 256.92911 82.629585) 
+    (end 256.930736 81.905043) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 256.930736 81.905043) 
+    (end 257.019683 81.185981) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.019683 81.185981) 
+    (end 257.194655 80.482882) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.194655 80.482882) 
+    (end 257.453101 79.806) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.453101 79.806) 
+    (end 257.791251 79.165206) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.791251 79.165206) 
+    (end 258.204175 78.569843) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.204175 78.569843) 
+    (end 258.685852 78.028593) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.685852 78.028593) 
+    (end 259.229257 77.54935) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 259.229257 77.54935) 
+    (end 259.826466 77.139101) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 259.826466 77.139101) 
+    (end 260.468777 76.803841) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 265.032958 74.76197) 
+    (end 265.710986 74.506552) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 265.710986 74.506552) 
+    (end 266.414863 74.334736) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.414863 74.334736) 
+    (end 267.134318 74.249015) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.134318 74.249015) 
+    (end 267.85886 74.250641) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.85886 74.250641) 
+    (end 268.577922 74.339588) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.577922 74.339588) 
+    (end 269.281021 74.51456) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 269.281021 74.51456) 
+    (end 269.957903 74.773006) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 269.957903 74.773006) 
+    (end 270.598697 75.111156) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 270.598697 75.111156) 
+    (end 271.19406 75.52408) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.19406 75.52408) 
+    (end 271.73531 76.005757) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 271.73531 76.005757) 
+    (end 272.214553 76.549162) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 272.214553 76.549162) 
+    (end 272.624802 77.146371) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 272.624802 77.146371) 
+    (end 272.960062 77.788682) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.468777 76.803841) 
+    (end 265.032958 74.76197) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.442065 84.730945) 
+    (end 272.960062 77.788682) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text MLCC 
+    (at 262.995887 76.330597) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 268.624164 85.081947) 
+    (end 268.526843 85.104938) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.526843 85.104938) 
+    (end 268.428043 85.12038) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.428043 85.12038) 
+    (end 268.328348 85.128182) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.328348 85.128182) 
+    (end 268.228348 85.128298) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.228348 85.128298) 
+    (end 268.128635 85.120727) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.128635 85.120727) 
+    (end 268.029799 85.105514) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 268.029799 85.105514) 
+    (end 267.932425 85.082749) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.932425 85.082749) 
+    (end 267.837089 85.052567) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.483154 80.238878) 
+    (end 267.395281 80.286611) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.837089 85.052567) 
+    (end 267.744355 85.015146) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.395281 80.286611) 
+    (end 267.311337 80.340957) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.744355 85.015146) 
+    (end 267.654772 84.970708) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.311337 80.340957) 
+    (end 267.231819 80.401595) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.654772 84.970708) 
+    (end 267.56887 84.919516) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.231819 80.401595) 
+    (end 267.157197 80.468166) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.56887 84.919516) 
+    (end 267.487157 84.861872) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.157197 80.468166) 
+    (end 267.087913 80.540276) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.487157 84.861872) 
+    (end 267.410117 84.798118) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.087913 80.540276) 
+    (end 267.024377 80.617498) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.410117 84.798118) 
+    (end 267.338205 84.728631) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.024377 80.617498) 
+    (end 266.966965 80.699375) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.338205 84.728631) 
+    (end 267.271847 84.653822) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.966965 80.699375) 
+    (end 266.916016 80.785423) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.271847 84.653822) 
+    (end 267.211436 84.574134) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.916016 80.785423) 
+    (end 266.871832 80.875133) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.211436 84.574134) 
+    (end 267.157329 84.490038) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.871832 80.875133) 
+    (end 266.834674 80.967974) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.157329 84.490038) 
+    (end 267.109846 84.402032) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.834674 80.967974) 
+    (end 266.804762 81.063397) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.109846 84.402032) 
+    (end 267.069268 84.310637) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.804762 81.063397) 
+    (end 266.782273 81.160837) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.069268 84.310637) 
+    (end 267.035835 84.216393) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.782273 81.160837) 
+    (end 266.76734 81.259717) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.035835 84.216393) 
+    (end 267.009745 84.119858) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.76734 81.259717) 
+    (end 266.760052 81.359452) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 267.009745 84.119858) 
+    (end 266.991152 84.021603) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.760052 81.359452) 
+    (end 266.760452 81.459452) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.991152 84.021603) 
+    (end 266.980166 83.92221) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.760452 81.459452) 
+    (end 266.768537 81.559125) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 266.980166 83.92221) 
+    (end 266.768537 81.559125) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 262.918973 82.280749) 
+    (end 263.013124 82.247049) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.013124 82.247049) 
+    (end 263.109587 82.220686) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.109587 82.220686) 
+    (end 263.207791 82.201816) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.207791 82.201816) 
+    (end 263.307155 82.19055) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.307155 82.19055) 
+    (end 263.407091 82.186955) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.407091 82.186955) 
+    (end 263.507008 82.191052) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.507008 82.191052) 
+    (end 263.606314 82.202817) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.606314 82.202817) 
+    (end 263.704422 82.22218) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.704422 82.22218) 
+    (end 263.800751 82.249027) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.800751 82.249027) 
+    (end 263.894731 82.283199) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.860851 86.602155) 
+    (end 263.953498 86.564518) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.894731 82.283199) 
+    (end 263.985806 82.324494) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.953498 86.564518) 
+    (end 264.042978 86.519871) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 263.985806 82.324494) 
+    (end 264.073437 82.372667) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.042978 86.519871) 
+    (end 264.128761 86.468478) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.073437 82.372667) 
+    (end 264.157106 82.427433) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.128761 86.468478) 
+    (end 264.21034 86.410643) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.157106 82.427433) 
+    (end 264.236318 82.488468) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.21034 86.410643) 
+    (end 264.287232 86.346708) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.236318 82.488468) 
+    (end 264.310604 82.555411) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.287232 86.346708) 
+    (end 264.358982 86.277052) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.310604 82.555411) 
+    (end 264.379525 82.627866) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.358982 86.277052) 
+    (end 264.425166 86.202087) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.379525 82.627866) 
+    (end 264.442673 82.705404) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.425166 86.202087) 
+    (end 264.485392 86.122256) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.442673 82.705404) 
+    (end 264.499674 82.787567) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.485392 86.122256) 
+    (end 264.539304 86.038032) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.499674 82.787567) 
+    (end 264.550191 82.873868) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.539304 86.038032) 
+    (end 264.586583 85.949913) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.550191 82.873868) 
+    (end 264.593925 82.963797) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.586583 85.949913) 
+    (end 264.626949 85.858421) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.593925 82.963797) 
+    (end 264.630617 83.056822) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.626949 85.858421) 
+    (end 264.660163 85.764097) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.630617 83.056822) 
+    (end 264.66005 83.152392) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.660163 85.764097) 
+    (end 264.686028 85.667499) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.66005 83.152392) 
+    (end 264.68205 83.249942) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.686028 85.667499) 
+    (end 264.704391 85.569199) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.68205 83.249942) 
+    (end 264.696487 83.348894) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.704391 85.569199) 
+    (end 264.715144 85.469778) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.696487 83.348894) 
+    (end 264.703275 83.448663) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.715144 85.469778) 
+    (end 264.718223 85.369825) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 264.718223 85.369825) 
+    (end 264.703275 83.448663) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.09189 105.10734) 
+    (end 238.605 98.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.97811 108.253326) 
+    (end 259.605 115.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (module holes 
+    (layer F.Cu) 
+    (at 250.578117 108.25117) 
+    (tedit 1) 
+    (tstamp 1) 
+    (attr virtual) 
+    (pad h0 np_thru_hole circle 
+      (at 0 0) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h1 np_thru_hole circle 
+      (at -1.133613 -0.917685) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h2 np_thru_hole circle 
+      (at -2.267226 -1.83537) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h3 np_thru_hole circle 
+      (at -3.400839 -2.753055) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask))) 
+  (gr_line 
+    (start 253.309842 110.140917) 
+    (end 252.946646 110.517145) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 252.946646 110.517145) 
+    (end 252.523632 110.824586) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 252.523632 110.824586) 
+    (end 252.053657 111.053899) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 252.053657 111.053899) 
+    (end 251.551003 111.198119) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.551003 111.198119) 
+    (end 251.030941 111.252863) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.030941 111.252863) 
+    (end 250.509275 111.216467) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.509275 111.216467) 
+    (end 250.001853 111.090038) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.001853 111.090038) 
+    (end 249.524095 110.877417) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 249.524095 110.877417) 
+    (end 249.090519 110.585058) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 245.204299 107.439072) 
+    (end 244.828071 107.075876) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 244.828071 107.075876) 
+    (end 244.52063 106.652862) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 244.52063 106.652862) 
+    (end 244.291317 106.182887) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 244.291317 106.182887) 
+    (end 244.147097 105.680233) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 244.147097 105.680233) 
+    (end 244.092353 105.160171) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 244.092353 105.160171) 
+    (end 244.128749 104.638505) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 244.128749 104.638505) 
+    (end 244.255178 104.131083) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 244.255178 104.131083) 
+    (end 244.467799 103.653325) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 244.467799 103.653325) 
+    (end 244.760158 103.219749) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 249.090519 110.585058) 
+    (end 245.204299 107.439072) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 253.309842 110.140917) 
+    (end 244.760158 103.219749) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text All 
+    (at 247.52493 108.545722) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 255.641574 112.028508) 
+    (end 255.152535 112.563109) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.152535 112.563109) 
+    (end 254.602612 113.034857) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 254.602612 113.034857) 
+    (end 253.999836 113.436879) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 253.999836 113.436879) 
+    (end 253.352996 113.763314) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 253.352996 113.763314) 
+    (end 252.671524 114.009401) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 252.671524 114.009401) 
+    (end 251.965359 114.171551) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.965359 114.171551) 
+    (end 251.244798 114.247401) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.244798 114.247401) 
+    (end 250.520347 114.235843) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.520347 114.235843) 
+    (end 249.802572 114.137046) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 249.802572 114.137046) 
+    (end 249.101939 113.952452) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 249.101939 113.952452) 
+    (end 248.428665 113.684751) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 248.428665 113.684751) 
+    (end 247.792567 113.337849) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.792567 113.337849) 
+    (end 247.202928 112.91679) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 243.316708 109.770804) 
+    (end 242.782107 109.281765) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 242.782107 109.281765) 
+    (end 242.310359 108.731842) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 242.310359 108.731842) 
+    (end 241.908337 108.129066) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.908337 108.129066) 
+    (end 241.581902 107.482226) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.581902 107.482226) 
+    (end 241.335815 106.800754) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.335815 106.800754) 
+    (end 241.173665 106.094589) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.173665 106.094589) 
+    (end 241.097815 105.374028) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.097815 105.374028) 
+    (end 241.109373 104.649577) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.109373 104.649577) 
+    (end 241.20817 103.931802) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.20817 103.931802) 
+    (end 241.392764 103.231169) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.392764 103.231169) 
+    (end 241.660465 102.557895) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 241.660465 102.557895) 
+    (end 242.007367 101.921797) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 242.007367 101.921797) 
+    (end 242.428426 101.332158) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.202928 112.91679) 
+    (end 243.316708 109.770804) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.641574 112.028508) 
+    (end 242.428426 101.332158) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text MLCC 
+    (at 245.637339 110.877454) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 251.046585 102.288277) 
+    (end 244.605 99.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.565293 104.428718) 
+    (end 263.605 108.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (module holes 
+    (layer F.Cu) 
+    (at 251.435799 102.196013) 
+    (tedit 1) 
+    (tstamp 1) 
+    (attr virtual) 
+    (pad h0 np_thru_hole circle 
+      (at 0 0) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h1 np_thru_hole circle 
+      (at 1.318107 0.624366) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h2 np_thru_hole circle 
+      (at 2.636214 1.248732) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h3 np_thru_hole circle 
+      (at 3.954321 1.873098) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask))) 
+  (gr_line 
+    (start 248.335374 101.004019) 
+    (end 248.599567 100.552729) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 248.599567 100.552729) 
+    (end 248.938118 100.154176) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 248.938118 100.154176) 
+    (end 249.340733 99.820466) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 249.340733 99.820466) 
+    (end 249.795179 99.561739) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 249.795179 99.561739) 
+    (end 250.287649 99.385857) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.287649 99.385857) 
+    (end 250.803179 99.298164) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.803179 99.298164) 
+    (end 251.326105 99.301323) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.326105 99.301323) 
+    (end 251.840537 99.39524) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.840537 99.39524) 
+    (end 252.330843 99.577066) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 256.849551 101.717507) 
+    (end 257.300841 101.9817) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.300841 101.9817) 
+    (end 257.699394 102.320251) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 257.699394 102.320251) 
+    (end 258.033104 102.722866) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.033104 102.722866) 
+    (end 258.291831 103.177312) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.291831 103.177312) 
+    (end 258.467713 103.669782) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.467713 103.669782) 
+    (end 258.555406 104.185312) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.555406 104.185312) 
+    (end 258.552247 104.708238) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.552247 104.708238) 
+    (end 258.45833 105.22267) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.45833 105.22267) 
+    (end 258.276504 105.712976) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 252.330843 99.577066) 
+    (end 256.849551 101.717507) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 248.335374 101.004019) 
+    (end 258.276504 105.712976) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text All 
+    (at 254.333343 101.189528) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 245.624163 99.719761) 
+    (end 245.973288 99.08488) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 245.973288 99.08488) 
+    (end 246.396405 98.496718) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 246.396405 98.496718) 
+    (end 246.887332 97.963846) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 246.887332 97.963846) 
+    (end 247.43891 97.494033) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.43891 97.494033) 
+    (end 248.043096 97.094131) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 248.043096 97.094131) 
+    (end 248.69108 96.769972) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 248.69108 96.769972) 
+    (end 249.373412 96.526282) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 249.373412 96.526282) 
+    (end 250.080144 96.366615) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.080144 96.366615) 
+    (end 250.800968 96.293298) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.800968 96.293298) 
+    (end 251.525373 96.307403) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.525373 96.307403) 
+    (end 252.242797 96.408722) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 252.242797 96.408722) 
+    (end 252.942777 96.595778) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 252.942777 96.595778) 
+    (end 253.615101 96.865855) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.133809 99.006296) 
+    (end 258.76869 99.355421) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 258.76869 99.355421) 
+    (end 259.356852 99.778538) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 259.356852 99.778538) 
+    (end 259.889724 100.269465) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 259.889724 100.269465) 
+    (end 260.359537 100.821043) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.359537 100.821043) 
+    (end 260.759439 101.425229) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 260.759439 101.425229) 
+    (end 261.083598 102.073213) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.083598 102.073213) 
+    (end 261.327288 102.755545) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.327288 102.755545) 
+    (end 261.486955 103.462277) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.486955 103.462277) 
+    (end 261.560272 104.183101) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.560272 104.183101) 
+    (end 261.546167 104.907506) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.546167 104.907506) 
+    (end 261.444848 105.62493) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.444848 105.62493) 
+    (end 261.257792 106.32491) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 261.257792 106.32491) 
+    (end 260.987715 106.997234) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 253.615101 96.865855) 
+    (end 258.133809 99.006296) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 245.624163 99.719761) 
+    (end 260.987715 106.997234) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text MLCC 
+    (at 255.617601 98.478317) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 250.97811 108.253326) 
+    (end 250.905451 108.184618) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.905451 108.184618) 
+    (end 250.838288 108.110528) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.838288 108.110528) 
+    (end 250.777019 108.031495) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.777019 108.031495) 
+    (end 250.722006 107.947986) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.722006 107.947986) 
+    (end 250.673575 107.860495) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.673575 107.860495) 
+    (end 250.632012 107.76954) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.632012 107.76954) 
+    (end 250.597563 107.675659) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.597563 107.675659) 
+    (end 250.570432 107.579408) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.570432 107.579408) 
+    (end 250.55078 107.481356) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.55078 107.481356) 
+    (end 250.538723 107.382084) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.538723 107.382084) 
+    (end 250.534332 107.282179) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.534332 107.282179) 
+    (end 250.537633 107.182232) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.537633 107.182232) 
+    (end 250.548607 107.082834) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.548607 107.082834) 
+    (end 250.567189 106.984574) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.565293 104.428718) 
+    (end 255.471896 104.392982) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.567189 106.984574) 
+    (end 250.593269 106.888033) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.471896 104.392982) 
+    (end 255.376028 104.364531) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.593269 106.888033) 
+    (end 250.626693 106.793782) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.376028 104.364531) 
+    (end 255.278257 104.343533) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.626693 106.793782) 
+    (end 250.667263 106.702379) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.278257 104.343533) 
+    (end 255.179161 104.330112) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.667263 106.702379) 
+    (end 250.714739 106.614365) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.179161 104.330112) 
+    (end 255.079327 104.324348) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.714739 106.614365) 
+    (end 250.76884 106.530261) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 255.079327 104.324348) 
+    (end 254.979345 104.326275) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.76884 106.530261) 
+    (end 250.829246 106.450564) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 254.979345 104.326275) 
+    (end 254.879807 104.335882) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.829246 106.450564) 
+    (end 250.895599 106.375746) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 254.879807 104.335882) 
+    (end 254.781302 104.353112) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.895599 106.375746) 
+    (end 250.967507 106.30625) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 254.781302 104.353112) 
+    (end 254.684413 104.377863) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.967507 106.30625) 
+    (end 251.044544 106.242487) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 254.684413 104.377863) 
+    (end 254.589713 104.409988) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.044544 106.242487) 
+    (end 251.126254 106.184834) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 254.589713 104.409988) 
+    (end 254.497763 104.449297) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.126254 106.184834) 
+    (end 251.212154 106.133632) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.212154 106.133632) 
+    (end 254.497763 104.449297) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.046585 102.288277) 
+    (end 251.133401 102.337906) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.133401 102.337906) 
+    (end 251.216145 102.394061) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.216145 102.394061) 
+    (end 251.294328 102.45641) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.294328 102.45641) 
+    (end 251.367487 102.524584) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.367487 102.524584) 
+    (end 251.435189 102.59818) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.435189 102.59818) 
+    (end 251.497034 102.676762) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.497034 102.676762) 
+    (end 251.552656 102.759865) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.552656 102.759865) 
+    (end 251.601726 102.846998) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.601726 102.846998) 
+    (end 251.643953 102.937645) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.643953 102.937645) 
+    (end 251.679087 103.03127) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.679087 103.03127) 
+    (end 251.70692 103.127319) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.70692 103.127319) 
+    (end 251.727288 103.225223) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.727288 103.225223) 
+    (end 251.74007 103.324403) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.74007 103.324403) 
+    (end 251.745191 103.424272) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.745191 103.424272) 
+    (end 251.74262 103.524239) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.74262 103.524239) 
+    (end 251.732373 103.623713) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.732373 103.623713) 
+    (end 251.71451 103.722105) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.71451 103.722105) 
+    (end 251.689137 103.818833) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.689137 103.818833) 
+    (end 251.656404 103.913324) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.656404 103.913324) 
+    (end 251.616505 104.005019) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.616505 104.005019) 
+    (end 251.569676 104.093376) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.09189 105.10734) 
+    (end 247.174221 105.164099) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.569676 104.093376) 
+    (end 251.516194 104.177872) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.174221 105.164099) 
+    (end 247.260671 105.214362) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.516194 104.177872) 
+    (end 251.456375 104.258007) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.260671 105.214362) 
+    (end 247.350729 105.257831) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.456375 104.258007) 
+    (end 251.390573 104.333307) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.350729 105.257831) 
+    (end 247.443862 105.294249) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.390573 104.333307) 
+    (end 251.319178 104.403326) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.443862 105.294249) 
+    (end 247.539519 105.3234) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.319178 104.403326) 
+    (end 251.242612 104.46765) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.539519 105.3234) 
+    (end 247.637134 105.345112) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.242612 104.46765) 
+    (end 251.161328 104.525898) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.637134 105.345112) 
+    (end 247.736129 105.359256) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.161328 104.525898) 
+    (end 251.075807 104.577726) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.736129 105.359256) 
+    (end 247.835918 105.365749) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 251.075807 104.577726) 
+    (end 250.986555 104.622827) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.835918 105.365749) 
+    (end 247.935911 105.364552) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.986555 104.622827) 
+    (end 250.8941 104.660934) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 247.935911 105.364552) 
+    (end 248.035516 105.355672) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 250.8941 104.660934) 
+    (end 250.798989 104.691822) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 248.035516 105.355672) 
+    (end 248.134144 105.339162) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 248.134144 105.339162) 
+    (end 250.798989 104.691822) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.629177 105.226185) 
+    (end 262.918973 82.280749) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.065104 107.268005) 
+    (end 173.605 122.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (module holes 
+    (layer F.Cu) 
+    (at 207.24804 106.912288) 
+    (tedit 1) 
+    (tstamp 1) 
+    (attr virtual) 
+    (pad h0 np_thru_hole circle 
+      (at 0 0) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h1 np_thru_hole circle 
+      (at 1.331337 -0.595597) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h2 np_thru_hole circle 
+      (at 2.662674 -1.191194) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h3 np_thru_hole circle 
+      (at 3.994011 -1.786791) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask))) 
+  (gr_line 
+    (start 204.326647 108.493103) 
+    (end 204.155517 107.998963) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.155517 107.998963) 
+    (end 204.072791 107.482614) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.072791 107.482614) 
+    (end 204.080984 106.959744) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.080984 106.959744) 
+    (end 204.179849 106.44624) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.179849 106.44624) 
+    (end 204.36638 105.957705) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.36638 105.957705) 
+    (end 204.634911 105.508983) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.634911 105.508983) 
+    (end 204.977282 105.113708) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.977282 105.113708) 
+    (end 205.38309 104.78389) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 205.38309 104.78389) 
+    (end 205.840006 104.529548) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.404079 102.487728) 
+    (end 210.898219 102.316598) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.898219 102.316598) 
+    (end 211.414568 102.233872) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.414568 102.233872) 
+    (end 211.937438 102.242065) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.937438 102.242065) 
+    (end 212.450942 102.34093) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.450942 102.34093) 
+    (end 212.939477 102.527461) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.939477 102.527461) 
+    (end 213.388199 102.795992) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.388199 102.795992) 
+    (end 213.783474 103.138363) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.783474 103.138363) 
+    (end 214.113292 103.544171) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 214.113292 103.544171) 
+    (end 214.367634 104.001087) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 205.840006 104.529548) 
+    (end 210.404079 102.487728) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.326647 108.493103) 
+    (end 214.367634 104.001087) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text All 
+    (at 208.367063 104.056328) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 201.58819 109.718201) 
+    (end 201.332772 109.040172) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.332772 109.040172) 
+    (end 201.160956 108.336294) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.160956 108.336294) 
+    (end 201.075236 107.616839) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.075236 107.616839) 
+    (end 201.076861 106.892297) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.076861 106.892297) 
+    (end 201.165809 106.173233) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.165809 106.173233) 
+    (end 201.340782 105.470134) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.340782 105.470134) 
+    (end 201.599228 104.793251) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.599228 104.793251) 
+    (end 201.937379 104.152457) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.937379 104.152457) 
+    (end 202.350303 103.557094) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 202.350303 103.557094) 
+    (end 202.831981 103.015844) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 202.831981 103.015844) 
+    (end 203.375386 102.5366) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 203.375386 102.5366) 
+    (end 203.972596 102.126351) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 203.972596 102.126351) 
+    (end 204.614908 101.791091) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.178981 99.749271) 
+    (end 209.85701 99.493853) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.85701 99.493853) 
+    (end 210.560888 99.322037) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.560888 99.322037) 
+    (end 211.280343 99.236317) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.280343 99.236317) 
+    (end 212.004885 99.237942) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.004885 99.237942) 
+    (end 212.723949 99.32689) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.723949 99.32689) 
+    (end 213.427048 99.501863) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.427048 99.501863) 
+    (end 214.103931 99.760309) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 214.103931 99.760309) 
+    (end 214.744725 100.09846) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 214.744725 100.09846) 
+    (end 215.340088 100.511384) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 215.340088 100.511384) 
+    (end 215.881338 100.993062) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 215.881338 100.993062) 
+    (end 216.360582 101.536467) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.360582 101.536467) 
+    (end 216.770831 102.133677) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.770831 102.133677) 
+    (end 217.106091 102.775989) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.614908 101.791091) 
+    (end 209.178981 99.749271) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 201.58819 109.718201) 
+    (end 217.106091 102.775989) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text MLCC 
+    (at 207.141965 101.317871) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 209.080878 111.094279) 
+    (end 176.605 125.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.665009 109.097963) 
+    (end 238.605 98.237) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (module holes 
+    (layer F.Cu) 
+    (at 213.478544 109.451843) 
+    (tedit 1) 
+    (tstamp 1) 
+    (attr virtual) 
+    (pad h0 np_thru_hole circle 
+      (at 0 0) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h1 np_thru_hole circle 
+      (at -1.337191 0.582325) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h2 np_thru_hole circle 
+      (at -2.674382 1.16465) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask)) 
+    (pad h3 np_thru_hole circle 
+      (at -4.011573 1.746975) 
+      (size 0.8 0.8) 
+      (drill 0.8) 
+      (layers *.Cu *.Mask))) 
+  (gr_line 
+    (start 216.415514 107.900162) 
+    (end 216.581721 108.395979) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.581721 108.395979) 
+    (end 216.659308 108.913125) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.659308 108.913125) 
+    (end 216.645914 109.435888) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.645914 109.435888) 
+    (end 216.541947 109.948383) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.541947 109.948383) 
+    (end 216.350566 110.435038) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.350566 110.435038) 
+    (end 216.077586 110.881067) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.077586 110.881067) 
+    (end 215.731301 111.272917) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 215.731301 111.272917) 
+    (end 215.322232 111.598683) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 215.322232 111.598683) 
+    (end 214.86281 111.848468) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.278679 113.844784) 
+    (end 209.782862 114.010991) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.782862 114.010991) 
+    (end 209.265716 114.088578) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.265716 114.088578) 
+    (end 208.742953 114.075184) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.742953 114.075184) 
+    (end 208.230458 113.971217) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.230458 113.971217) 
+    (end 207.743803 113.779836) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.743803 113.779836) 
+    (end 207.297774 113.506856) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.297774 113.506856) 
+    (end 206.905924 113.160571) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 206.905924 113.160571) 
+    (end 206.580158 112.751502) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 206.580158 112.751502) 
+    (end 206.330373 112.29208) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 214.86281 111.848468) 
+    (end 210.278679 113.844784) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.415514 107.900162) 
+    (end 206.330373 112.29208) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text All 
+    (at 212.331185 112.296525) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 219.166019 106.702361) 
+    (end 219.414681 107.382897) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 219.414681 107.382897) 
+    (end 219.579488 108.088448) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 219.579488 108.088448) 
+    (end 219.658048 108.80872) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 219.658048 108.80872) 
+    (end 219.649217 109.53321) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 219.649217 109.53321) 
+    (end 219.553122 110.251353) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 219.553122 110.251353) 
+    (end 219.371165 110.952677) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 219.371165 110.952677) 
+    (end 219.106 111.626955) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 219.106 111.626955) 
+    (end 218.761492 112.264355) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 218.761492 112.264355) 
+    (end 218.342667 112.855582) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 218.342667 112.855582) 
+    (end 217.855631 113.392014) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 217.855631 113.392014) 
+    (end 217.307486 113.865829) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 217.307486 113.865829) 
+    (end 216.706225 114.270118) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.706225 114.270118) 
+    (end 216.060611 114.598973) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.47648 116.595289) 
+    (end 210.795944 116.843951) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.795944 116.843951) 
+    (end 210.090393 117.008758) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.090393 117.008758) 
+    (end 209.370121 117.087318) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.370121 117.087318) 
+    (end 208.645631 117.078487) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.645631 117.078487) 
+    (end 207.927488 116.982392) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.927488 116.982392) 
+    (end 207.226164 116.800435) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.226164 116.800435) 
+    (end 206.551886 116.53527) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 206.551886 116.53527) 
+    (end 205.914486 116.190762) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 205.914486 116.190762) 
+    (end 205.323259 115.771937) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 205.323259 115.771937) 
+    (end 204.786827 115.284901) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.786827 115.284901) 
+    (end 204.313012 114.736756) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 204.313012 114.736756) 
+    (end 203.908723 114.135495) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 203.908723 114.135495) 
+    (end 203.579868 113.489881) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 216.060611 114.598973) 
+    (end 211.47648 116.595289) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_line 
+    (start 219.166019 106.702361) 
+    (end 203.579868 113.489881) 
+    (layer F.Fab) 
+    (width 0.1)) 
+  (gr_text MLCC 
+    (at 213.528986 115.04703) 
+    (layer F.Fab) 
+    (effects 
+      (font 
+        (size 0.5 0.5) 
+        (thickness 0.125)))) 
+  (gr_line 
+    (start 209.080878 111.094279) 
+    (end 209.169222 111.047423) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.169222 111.047423) 
+    (end 209.253703 110.993915) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.253703 110.993915) 
+    (end 209.333821 110.934072) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.333821 110.934072) 
+    (end 209.409102 110.868248) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.409102 110.868248) 
+    (end 209.479101 110.796832) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.065104 107.268005) 
+    (end 207.159255 107.234305) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.479101 110.796832) 
+    (end 209.543403 110.720247) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.159255 107.234305) 
+    (end 207.255718 107.207942) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.543403 110.720247) 
+    (end 209.601628 110.638946) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.255718 107.207942) 
+    (end 207.353922 107.189072) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.601628 110.638946) 
+    (end 209.653431 110.55341) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.353922 107.189072) 
+    (end 207.453286 107.177806) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.653431 110.55341) 
+    (end 209.698506 110.464145) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.453286 107.177806) 
+    (end 207.553222 107.174211) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.698506 110.464145) 
+    (end 209.736586 110.371679) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.553222 107.174211) 
+    (end 207.653139 107.178308) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.736586 110.371679) 
+    (end 209.767446 110.27656) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.653139 107.178308) 
+    (end 207.752445 107.190073) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.767446 110.27656) 
+    (end 209.790903 110.17935) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.752445 107.190073) 
+    (end 207.850553 107.209436) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.790903 110.17935) 
+    (end 209.806818 110.080625) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.850553 107.209436) 
+    (end 207.946882 107.236283) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.806818 110.080625) 
+    (end 209.815097 109.980969) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 207.946882 107.236283) 
+    (end 208.040862 107.270455) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.815097 109.980969) 
+    (end 209.815691 109.880971) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.040862 107.270455) 
+    (end 208.131937 107.31175) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.815691 109.880971) 
+    (end 209.808597 109.781223) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.131937 107.31175) 
+    (end 208.219568 107.359923) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.808597 109.781223) 
+    (end 209.793857 109.682315) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.219568 107.359923) 
+    (end 208.303237 107.414689) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.793857 109.682315) 
+    (end 209.771558 109.584833) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.303237 107.414689) 
+    (end 208.382449 107.475724) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.771558 109.584833) 
+    (end 209.741832 109.489353) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.382449 107.475724) 
+    (end 208.456735 107.542667) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.741832 109.489353) 
+    (end 209.704855 109.39644) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.456735 107.542667) 
+    (end 208.525656 107.615122) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.704855 109.39644) 
+    (end 209.660846 109.306644) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.525656 107.615122) 
+    (end 208.588804 107.69266) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 209.660846 109.306644) 
+    (end 209.610065 109.220496) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.588804 107.69266) 
+    (end 208.645805 107.774823) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 208.645805 107.774823) 
+    (end 209.610065 109.220496) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.629177 105.226185) 
+    (end 211.541304 105.273918) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.541304 105.273918) 
+    (end 211.45736 105.328264) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.45736 105.328264) 
+    (end 211.377842 105.388902) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.377842 105.388902) 
+    (end 211.30322 105.455473) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.30322 105.455473) 
+    (end 211.233936 105.527583) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.665009 109.097963) 
+    (end 213.570527 109.130724) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.233936 105.527583) 
+    (end 211.1704 105.604805) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.570527 109.130724) 
+    (end 213.473806 109.156126) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.1704 105.604805) 
+    (end 211.112988 105.686682) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.473806 109.156126) 
+    (end 213.375419 109.174018) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.112988 105.686682) 
+    (end 211.062039 105.77273) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.375419 109.174018) 
+    (end 213.275948 109.184294) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.062039 105.77273) 
+    (end 211.017855 105.86244) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.275948 109.184294) 
+    (end 213.175981 109.186894) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.017855 105.86244) 
+    (end 210.980697 105.955281) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.175981 109.186894) 
+    (end 213.07611 109.181802) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.980697 105.955281) 
+    (end 210.950785 106.050704) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 213.07611 109.181802) 
+    (end 212.976926 109.169048) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.950785 106.050704) 
+    (end 210.928296 106.148144) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.976926 109.169048) 
+    (end 212.879016 109.148708) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.928296 106.148144) 
+    (end 210.913363 106.247024) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.879016 109.148708) 
+    (end 212.782959 109.120902) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.913363 106.247024) 
+    (end 210.906075 106.346759) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.782959 109.120902) 
+    (end 212.689324 109.085795) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.906075 106.346759) 
+    (end 210.906475 106.446759) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.689324 109.085795) 
+    (end 212.598665 109.043595) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.906475 106.446759) 
+    (end 210.91456 106.546432) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.598665 109.043595) 
+    (end 212.511518 108.994551) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.91456 106.546432) 
+    (end 210.930283 106.645189) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.511518 108.994551) 
+    (end 212.428399 108.938953) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.930283 106.645189) 
+    (end 210.953551 106.742445) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.428399 108.938953) 
+    (end 212.3498 108.87713) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.953551 106.742445) 
+    (end 210.984226 106.837625) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.3498 108.87713) 
+    (end 212.276186 108.809448) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 210.984226 106.837625) 
+    (end 211.022126 106.930166) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.276186 108.809448) 
+    (end 212.207992 108.736308) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.022126 106.930166) 
+    (end 211.067027 107.01952) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.207992 108.736308) 
+    (end 212.145622 108.658143) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.067027 107.01952) 
+    (end 211.118663 107.105158) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 212.145622 108.658143) 
+    (end 212.089445 108.575415) 
+    (layer Edge.Cuts) 
+    (width 0.1)) 
+  (gr_line 
+    (start 211.118663 107.105158) 
+    (end 212.089445 108.575415) 
+    (layer Edge.Cuts) 
+    (width 0.1)))

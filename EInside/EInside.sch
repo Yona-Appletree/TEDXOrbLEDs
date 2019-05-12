@@ -1601,27 +1601,6 @@ Wire Wire Line
 Wire Wire Line
 	20650 3350 20650 3900
 Connection ~ 20300 3350
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 5CEC36A1
-P 950 4800
-F 0 "J2" H 1058 4981 50  0000 C CNN
-F 1 "IN2" H 1058 4890 50  0000 C CNN
-F 2 "YonaFootprints:TEDX_IN2" H 950 4800 50  0001 C CNN
-F 3 "~" H 950 4800 50  0001 C CNN
-	1    950  4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 4800 1900 4800
-Wire Wire Line
-	1900 4800 1900 4350
-Connection ~ 1900 4350
-Wire Wire Line
-	1950 4100 1950 4900
-Wire Wire Line
-	1950 4900 1700 4900
-Connection ~ 1950 4100
 Wire Wire Line
 	1850 3900 1550 3900
 Wire Wire Line
@@ -1638,28 +1617,6 @@ Text Label 20650 4000 2    50   ~ 0
 DOUT
 Text Label 20650 4100 2    50   ~ 0
 BOUT
-$Comp
-L Jumper:Jumper_2_Open JP3
-U 1 1 5CFF526D
-P 1500 4800
-F 0 "JP3" H 1500 5035 50  0000 C CNN
-F 1 "DOUT2_ENABLE" H 1500 4944 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1500 4800 50  0001 C CNN
-F 3 "~" H 1500 4800 50  0001 C CNN
-	1    1500 4800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Open JP4
-U 1 1 5CFF5273
-P 1500 4900
-F 0 "JP4" H 1500 4750 50  0000 C CNN
-F 1 "BOUT2_ENABLE" H 1500 4650 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1500 4900 50  0001 C CNN
-F 3 "~" H 1500 4900 50  0001 C CNN
-	1    1500 4900
-	-1   0    0    -1  
-$EndComp
 Connection ~ 3800 3350
 Connection ~ 3800 4400
 Connection ~ 4900 3350
@@ -1688,10 +1645,6 @@ Connection ~ 18100 3350
 Connection ~ 18100 4400
 Connection ~ 19200 3350
 Connection ~ 19200 4400
-Wire Wire Line
-	1300 4800 1150 4800
-Wire Wire Line
-	1150 4900 1300 4900
 Wire Wire Line
 	20150 4000 20600 4000
 Wire Wire Line
