@@ -32,17 +32,6 @@ Wire Wire Line
 Text Notes 1000 2850 0    118  ~ 0
 E Strut\n17 LEDs\nx3
 $Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5CCD490D
-P 900 4100
-F 0 "J1" H 1008 4381 50  0000 C CNN
-F 1 "IN" H 1008 4290 50  0000 C CNN
-F 2 "YonaFootprints:6mmStripEnd" H 900 4100 50  0001 C CNN
-F 3 "~" H 900 4100 50  0001 C CNN
-	1    900  4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5C8D2501
 P 1950 4100
@@ -106,22 +95,9 @@ F 3 "~" H 1950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1950 4500
-Wire Wire Line
-	1100 4500 1100 4300
-Wire Wire Line
-	1100 4500 1500 4500
-Wire Wire Line
-	1100 4000 1100 3450
-Wire Wire Line
-	1100 3450 1400 3450
 Connection ~ 1400 3450
 Wire Wire Line
-	1100 4100 1150 4100
-Connection ~ 1150 4100
-Wire Wire Line
 	1150 4100 1200 4100
-Wire Wire Line
-	1100 4200 1200 4200
 Wire Wire Line
 	1400 3450 1950 3450
 $Comp
@@ -1045,17 +1021,6 @@ Wire Wire Line
 Wire Wire Line
 	14250 4300 14250 4500
 $Comp
-L Connector:Conn_01x04_Female J2
-U 1 1 5CE3CD62
-P 14500 4100
-F 0 "J2" H 14350 4300 50  0000 L CNN
-F 1 "MID" H 14350 3800 50  0000 L CNN
-F 2 "YonaFootprints:6mmStripMid" H 14500 4100 50  0001 C CNN
-F 3 "~" H 14500 4100 50  0001 C CNN
-	1    14500 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R12
 U 1 1 5CE3CD68
 P 14050 3650
@@ -1100,10 +1065,6 @@ F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 137
 	1    13600 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14250 4300 14300 4300
-Wire Wire Line
-	14150 4200 14300 4200
 Connection ~ 13600 4500
 Wire Wire Line
 	14050 4500 14050 4250
@@ -1173,17 +1134,6 @@ Wire Wire Line
 Wire Wire Line
 	15750 4300 15750 4500
 $Comp
-L Connector:Conn_01x04_Female J3
-U 1 1 5CEE64A9
-P 16000 4100
-F 0 "J3" H 15850 4300 50  0000 L CNN
-F 1 "MID" H 15850 3800 50  0000 L CNN
-F 2 "YonaFootprints:6mmStripMid" H 16000 4100 50  0001 C CNN
-F 3 "~" H 16000 4100 50  0001 C CNN
-	1    16000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R13
 U 1 1 5CEE64AF
 P 15550 3650
@@ -1228,10 +1178,6 @@ F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 152
 	1    15100 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15750 4300 15800 4300
-Wire Wire Line
-	15650 4200 15800 4200
 Connection ~ 15100 4500
 Wire Wire Line
 	15550 4500 15550 4250
@@ -1291,17 +1237,6 @@ Wire Wire Line
 Wire Wire Line
 	17250 4300 17250 4500
 $Comp
-L Connector:Conn_01x04_Female J4
-U 1 1 5CEF1C79
-P 17500 4100
-F 0 "J4" H 17350 4300 50  0000 L CNN
-F 1 "MID" H 17350 3800 50  0000 L CNN
-F 2 "YonaFootprints:6mmStripMid" H 17500 4100 50  0001 C CNN
-F 3 "~" H 17500 4100 50  0001 C CNN
-	1    17500 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R14
 U 1 1 5CEF1C7F
 P 17050 3650
@@ -1346,10 +1281,6 @@ F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 167
 	1    16600 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17250 4300 17300 4300
-Wire Wire Line
-	17150 4200 17300 4200
 Connection ~ 16600 4500
 Wire Wire Line
 	17050 4500 17050 4250
@@ -1408,17 +1339,6 @@ Wire Wire Line
 	18750 4500 18550 4500
 Wire Wire Line
 	18750 4300 18750 4500
-$Comp
-L Connector:Conn_01x04_Female J5
-U 1 1 5CF01720
-P 19000 4100
-F 0 "J5" H 18850 4300 50  0000 L CNN
-F 1 "MID" H 18850 3800 50  0000 L CNN
-F 2 "YonaFootprints:6mmStripMid" H 19000 4100 50  0001 C CNN
-F 3 "~" H 19000 4100 50  0001 C CNN
-	1    19000 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R15
 U 1 1 5CF01726
@@ -1510,40 +1430,10 @@ $EndComp
 Connection ~ 14750 4100
 Wire Wire Line
 	14300 4000 14700 4000
-Connection ~ 14300 4000
-Connection ~ 14300 4100
-Wire Wire Line
-	14300 4200 14800 4200
-Connection ~ 14300 4200
-Wire Wire Line
-	14700 4300 14300 4300
-Connection ~ 14300 4300
-Wire Wire Line
-	14300 4100 14750 4100
 Wire Wire Line
 	15800 4000 16200 4000
-Connection ~ 15800 4000
-Wire Wire Line
-	15800 4100 16250 4100
-Connection ~ 15800 4100
-Wire Wire Line
-	15800 4200 16300 4200
-Connection ~ 15800 4200
-Wire Wire Line
-	16200 4300 15800 4300
-Connection ~ 15800 4300
 Wire Wire Line
 	17300 4000 17700 4000
-Connection ~ 17300 4000
-Wire Wire Line
-	17300 4100 17750 4100
-Connection ~ 17300 4100
-Wire Wire Line
-	17300 4200 17800 4200
-Connection ~ 17300 4200
-Wire Wire Line
-	17300 4300 17700 4300
-Connection ~ 17300 4300
 $Comp
 L Connector:Conn_01x02_Male J6
 U 1 1 5D1D0E0E
@@ -1600,7 +1490,6 @@ Wire Wire Line
 	1200 4200 1200 5000
 Wire Wire Line
 	1200 5000 1100 5000
-Connection ~ 1200 4200
 $Comp
 L Connector:Conn_01x02_Male J9
 U 1 1 5CDE7BBE
@@ -1617,8 +1506,6 @@ Wire Wire Line
 Wire Wire Line
 	15700 5050 15600 5050
 Connection ~ 15700 4100
-Wire Wire Line
-	15700 4100 15800 4100
 Wire Wire Line
 	15650 4450 15650 5150
 Wire Wire Line
@@ -1651,8 +1538,6 @@ Wire Wire Line
 Wire Wire Line
 	17200 5050 17200 4100
 Connection ~ 17200 4100
-Wire Wire Line
-	17200 4100 17300 4100
 Wire Wire Line
 	17150 4450 17150 5150
 Wire Wire Line
@@ -1687,8 +1572,6 @@ Wire Wire Line
 	14200 5050 14200 4100
 Connection ~ 14200 4100
 Wire Wire Line
-	14200 4100 14300 4100
-Wire Wire Line
 	14150 4450 14150 5150
 Wire Wire Line
 	14150 5150 14100 5150
@@ -1717,17 +1600,6 @@ Wire Wire Line
 	20250 4500 20050 4500
 Wire Wire Line
 	20250 4300 20250 4500
-$Comp
-L Connector:Conn_01x04_Female J12
-U 1 1 5CD2718F
-P 20500 4100
-F 0 "J12" H 20350 4300 50  0000 L CNN
-F 1 "MID" H 20350 3800 50  0000 L CNN
-F 2 "YonaFootprints:6mmStripMid" H 20500 4100 50  0001 C CNN
-F 3 "~" H 20500 4100 50  0001 C CNN
-	1    20500 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R16
 U 1 1 5CD27195
@@ -1861,22 +1733,6 @@ Wire Wire Line
 	20700 4500 21100 4500
 Wire Wire Line
 	20700 4500 20700 4300
-Connection ~ 21550 4500
-Wire Wire Line
-	21750 4500 21550 4500
-Wire Wire Line
-	21750 4300 21750 4500
-$Comp
-L Connector:Conn_01x04_Female J13
-U 1 1 5CD41C1D
-P 22000 4100
-F 0 "J13" H 21850 4300 50  0000 L CNN
-F 1 "OUT" H 21850 3800 50  0000 L CNN
-F 2 "YonaFootprints:6mmStripEnd" H 22000 4100 50  0001 C CNN
-F 3 "~" H 22000 4100 50  0001 C CNN
-	1    22000 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R17
 U 1 1 5CD41C23
@@ -1890,14 +1746,9 @@ F 3 "~" H 21550 3650 50  0001 C CNN
 $EndComp
 Connection ~ 21550 3800
 Wire Wire Line
-	21800 4000 21800 3450
-Wire Wire Line
 	21400 4100 21700 4100
 Wire Wire Line
 	21550 3500 21550 3450
-Connection ~ 21550 3450
-Wire Wire Line
-	21550 3450 21800 3450
 Wire Wire Line
 	21000 3800 21000 3450
 $Comp
@@ -1922,10 +1773,6 @@ F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 212
 	1    21100 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	21750 4300 21800 4300
-Wire Wire Line
-	21650 4200 21800 4200
 Connection ~ 21100 4500
 Wire Wire Line
 	21550 4500 21550 4250
@@ -1937,8 +1784,6 @@ Wire Wire Line
 	20750 4100 20750 4450
 Wire Wire Line
 	20750 4450 21650 4450
-Wire Wire Line
-	21650 4200 21650 4450
 $Comp
 L Device:C C17
 U 1 1 5CD41C45
@@ -1988,12 +1833,26 @@ Wire Wire Line
 	21700 4100 21700 5050
 Wire Wire Line
 	21700 5050 21600 5050
-Connection ~ 21700 4100
-Wire Wire Line
-	21700 4100 21800 4100
 Wire Wire Line
 	21650 4450 21650 5150
 Wire Wire Line
 	21650 5150 21600 5150
-Connection ~ 21650 4450
+Wire Wire Line
+	14200 4100 14750 4100
+Wire Wire Line
+	14150 4200 14800 4200
+Wire Wire Line
+	14250 4300 14700 4300
+Wire Wire Line
+	15700 4100 16250 4100
+Wire Wire Line
+	15650 4200 16300 4200
+Wire Wire Line
+	15750 4300 16200 4300
+Wire Wire Line
+	17200 4100 17750 4100
+Wire Wire Line
+	17150 4200 17800 4200
+Wire Wire Line
+	17250 4300 17700 4300
 $EndSCHEMATC

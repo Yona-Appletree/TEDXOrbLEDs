@@ -1,6 +1,0 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"C8,C9,C10,C11,C12,C7,C6,C5,C4,C3,C2,C1";"C_0805_2012Metric";12;"100NF";;;
-2;"D1,D2,D12,D11,D10,D9,D8,D7,D6,D5,D4,D3";"LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm";12;"WS2813";;;
-3;"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12";"R_0805_2012Metric";12;"330";;;
-4;"J2";"1x3_18awgWireSolderPad-5mm";1;"A_OUT";;;
-5;"J1";"1x3_18awgWireSolderPad-5mm";1;"A_IN";;;
